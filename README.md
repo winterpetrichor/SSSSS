@@ -1,7 +1,7 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
 
 ## Contact
-Please feel free to contact me by email or on twitter with any questions (see profile page <https://github.com/winterpetrichor>), comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.
+Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
 
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
