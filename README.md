@@ -14,9 +14,9 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
 
 ## About the application  
 
-The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and obfuscate your seed phrase, so that it may be distributed among cloud services and/or local data storage methods, so that it will always be easily accessible, and you can decode it once the minimum number of shares (set by you) is met.  
+The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and encrypt your seed phrase with your password, so that it can be distributed among cloud services and/or local data storage methods, and will always be easily accessible. You can decrypt with your password once you can recover the minimum number of shares (set by you).  
   
-In short, the software makes it signficantly easier for you to recover your seed phrase, with only a marginal, theoretical decrease in security.  
+In short, the software makes it signficantly easier for you to recover your seed phrase, with only a marginal decrease in security.  
   
 ### Simple language overview   
 1) Turns your seed phrase into a number by encoding (not encryption), then uses Shamir's Secret Sharing to create shares from that number. See <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing> for more on how this part works.  
