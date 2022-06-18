@@ -1,10 +1,22 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
 
+20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases. This is largely because these seed phrases are protected so well, that even their owners sometimes lose access. This software aims to reduce the risk that this happens to you.  
+<https://fortune.com/2017/11/25/lost-bitcoins/>  
+<https://decrypt.co/37171/lost-bitcoin-3-7-million-bitcoin-are-probably-gone-forever>  
+<https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
+(Just google "lost bitcoin")
+
 ## Contact
 Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
 
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
+
+## About the application  
+
+The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and obfuscate your seed phrase, so that it may be distributed among cloud services and/or local data storage methods, so that it will always be easily accessible, and you can decode it once the minimum number of shares (set by you) is met.  
+  
+In short, the software makes it signficantly easier for you to recover your seed phrase, with only a marginal, theoretical decrease in security.  
   
 ### Simple language overview   
 1) Turns your seed phrase into a number by encoding (not encryption), then uses Shamir's Secret Sharing to create shares from that number. See <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing> for more on how this part works.  
@@ -17,11 +29,6 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
   
 5) In the future, if you need to recover your seed phrase, collect the minimum number of files from wherever you distributed them, place them in a folder, and decrypt them using the software and your password.  
   
-  
-## About the application  
-
-The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and obfuscate your seed phrase, so that it may be distributed among cloud services and/or local data storage methods, so that it will always be easily accessible, and you can decode it once the minimum number of shares (set by you) is met.  
-
 ### Aims  
 
 \* Secure seed phrase - use password to encrypt distributed (distributed is up to the user) SSS shares  
