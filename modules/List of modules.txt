@@ -1,0 +1,14 @@
+- secrets	- Python standard
+- base64	- Python standard
+- cryptography	- Apache Software License, BSD License (BSD-3-Clause OR Apache-2.0)
+- tkinter	- Python standard
+- functools	- Python standard
+- os		- Python standard
+- sys		- Python standard
+- datetime	- Python standard
+- decimal	- Python standard
+- itertools	- Python standard
+- math		- Python standard
+- threading	- Python standard
+- shutil	- Python standard
+- random	- Python standard

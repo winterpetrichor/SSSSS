@@ -21,15 +21,17 @@ from datetime import datetime
 
 intro_warn_str = ('PLEASE READ THE FOLLOWING CAREFULLY TO UNDERSTAND THE \
 APPLICATION AND ITS LIMITATIONS.\n\n\
-The intent of this code is to use a password and programatically \
-generated encryption key to encrypt the seed phrase of a digital wallet so \
+The intent of this code is to use 1) a password, and 2) programatically \
+generated encryption key, to encrypt the seed phrase of a digital wallet so \
 that its parts can be distributed in different, varying digital locations \
 (e.g. multiple cloud storage services) to mitigate against the risk of losing \
 access to physical copies of SSS shares or otherwise trying to secure the \
-entire seed phrase in a cloud service, which has inherent risk.\n\n\
-You will need your secret (seed phrase or other) and a password (ideally a \
+entire (complete or unencrypted) seed phrase in a cloud service, which \
+has inherent risk.\n\n\
+You will need your secret (seed phrase or other text you wish to obfuscate), \
+and a password, (ideally a \
 strong one, stored in a password manager that is not linked to your shares). \
-This password will be used to symmetrically encrypt your data, along with \
+This password will be used to symmetrically encrypt your data with \
 Fernet encryption provided by the cryptography library.\n\n\
 [ https://pypi.org/project/cryptography/ ]\n\n\
 The software is intended to be used to encrypt and then split your secret \
@@ -41,7 +43,7 @@ that the developer(s) cannot be held liable for any undesirable outcomes that \
 can be traced back to your use of this software.\n\n\
 YOU and ONLY YOU are responsible for the strength of your password, \
 the accuracy of the secrets and passwords entered, and the security of your \
-share files generated. This is not a method that is foolproof or unhackable, \
+share files generated. I do not claim that is foolproof or unhackable, \
 but it is designed to be a reasonably secure method, if implemented \
 correctly, and with a bit of luck.\n\n\
 I thereby wish you good luck!\n\n\n\
@@ -54,7 +56,7 @@ encwarnstr = \
            'Please store your secret files safely and in different, \
 relatively secure digital locations such as different cloud services that \
 use at least 2FA to allow access.\n\n\
-Please also note that data degradation, especially on physical hardware \
+Please also note that data degradation on physical hardware \
 is real, and consider keeping multiple copies (still separately) or also \
 using another backup method for your secret or seed phrase, such as \
 mnemonics, paper steel, etc. This method is only meant to provide you with \
@@ -71,7 +73,7 @@ def introwindow():
 def encryptwindow():
     #main window setup
     root = Tk()
-    root.title("SSSSS (Shamir Secret Sharing Seed Splitter) - Encryption Screen")
+    root.title("SSSSS (Shamir's Secret Sharing Seed Splitter) - Encryption Screen")
 
     mainframe = ttk.Frame(root, padding="3 3 12 12")
     mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
@@ -252,7 +254,7 @@ def decryptwindow():
 
     #main window setup
     root = Tk()
-    root.title("SSSSS (Shamir Secret Sharing Seed Splitter) - Decryption Screen")
+    root.title("SSSSS (Shamir's Secret Sharing Seed Splitter) - Decryption Screen")
 
     mainframe = ttk.Frame(root, padding="3 3 12 12")
     mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
