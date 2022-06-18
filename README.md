@@ -11,9 +11,9 @@ The intent of this application is to allow your seed phrase to be easily and rea
 
 ### Aims  
 
-/* Secure seed phrase  
-/* Easy recovery  
-/* Minimize risk of loss (of the seed phrase)  
+\* Secure seed phrase  
+\* Easy recovery  
+\* Minimize risk of loss (of the seed phrase)  
 
 The software does this by using 1) a password, and 2) a programatically generated encryption key, to encrypt the seed phrase of a digital wallet so that its parts can be distributed in multiple, varying digital locations (e.g. multiple cloud storage services) to mitigate against the risk of losing access to physical copies of SSS shares or otherwise trying to secure the entire (complete or unencrypted) seed phrase in a cloud service, which has inherent risk.  
 
