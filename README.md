@@ -5,7 +5,19 @@ Please feel free to contact me by email or on twitter (see profile page <https:/
 
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
-
+  
+### Simple language overview   
+1) Turns your seed phrase into a number by encoding (not encryption), then uses Shamir's Secret Sharing to create shares from that number. See <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing> for more on how this part works.  
+  
+2) These shares are then encrypted with your password and saved as files.  
+  
+3) You can now distribute these files in other **secure** locations, such as multiple different 2FA protected cloud storage (so that the files are separate, and the points are not saved together; so if someone hacked a particular cloud storage, they only get one point, and still cannot get your seed phrase.)  
+  
+4) Note that even if someone were to get a file, they would still need the password you encrypted them with, and even then, a single file cannot reveal your seed phrase (as long as you specified more than 1 as the minimum number on the software's encrypt screen.)  
+  
+5) In the future, if you need to recover your seed phrase, collect the minimum number of files from wherever you distributed them, place them in a folder, and decrypt them using the software and your password.  
+  
+  
 ## About the application  
 
 The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and obfuscate your seed phrase, so that it may be distributed among cloud services and/or local data storage methods, so that it will always be easily accessible, and you can decode it once the minimum number of shares (set by you) is met.  
