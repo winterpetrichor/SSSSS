@@ -1,14 +1,22 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
 
-20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases. This is largely because these seed phrases are protected so well, that even their owners sometimes lose access. This software aims to reduce the risk that this happens to you.  
+20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases. This is largely because these seed phrases are protected so well, that even their owners sometimes lose access (single hard copy that gets lost, stored on a single flash drive or hard drive that gets lost or corrupted, etc.) We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, read on to see how this works.  
+
 <https://fortune.com/2017/11/25/lost-bitcoins/>  
 <https://decrypt.co/37171/lost-bitcoin-3-7-million-bitcoin-are-probably-gone-forever>  
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
-(Just google "lost bitcoin")
-
+(Just google "lost bitcoin")  
+  
+**This software aims to reduce the risk that this happens to you.**  
+   
 ## Advantages of using this software  
-\*Much lower risk of permanently losing your seed phrase!  
-\*Universal support for SSS with any wallet's seed phrase!  
+\* Much lower risk of permanently losing your seed phrase!  
+\* Universal support for SSS with any wallet's seed phrase!  
+
+## Complexities(?) of using this software  
+\* You should to have at least a few relatively secure cloud file storage solutions, the files are very small, so free tiers are usually fine. Microsoft OneDrive, Google Drive and Dropbox are good candidates.  
+\* You will need to locate and download these files if you are going to restore your seed.  
+\* A password manager is generally recommended for passwords, but can represent a single point of failure, which we are trying to avoid.  
   
 ## Contact
 Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
@@ -41,7 +49,7 @@ In short, the software makes it signficantly easier for you to recover your seed
 
 The software does this by using 1) a password, and 2) a programatically generated encryption key, to encrypt the seed phrase of a digital wallet so that its parts can be distributed in multiple, varying digital locations (e.g. multiple cloud storage services) to mitigate against the risk of losing access to physical copies of SSS shares or otherwise trying to secure the entire (complete or unencrypted) seed phrase in a cloud service, which has inherent risk.  
 
-You will need 1) your secret (seed phrase or other text you wish to obfuscate), and a password, (ideally a strong one, stored in a password manager that is not linked to your shares in any way).  
+You will need 1) your secret (seed phrase or other text you wish to obfuscate), and a password, (ideally a strong one, that you can memorize, or one stored in a password manager that is not linked to your shares in any way, but keep in mind the password manager can represent a single point of failure. Losing access to the password within it, may render you unable to access your seed.)  
 
 This password will be used to symmetrically encrypt your data with Fernet encryption provided by the cryptography library.  
 https://pypi.org/project/cryptography/  
