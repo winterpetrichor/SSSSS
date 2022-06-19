@@ -1,6 +1,13 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
 
-20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases. This is largely because these seed phrases are protected so well, that even their owners sometimes lose access (single hard copy that gets lost, stored on a single flash drive or hard drive that gets lost or corrupted, etc.) We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, read on to see how this works.  
+## TLDR  
+Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
+
+**20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases.**  
+
+This is largely because these seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) gets lost; written down, stamped in metal, stored on a single flash drive or hard drive that gets lost or corrupted, lost in a fire, etc.)  
+  
+We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, and read on to see how this software can help mitigate against this happening to you.  
 
 <https://fortune.com/2017/11/25/lost-bitcoins/>  
 <https://decrypt.co/37171/lost-bitcoin-3-7-million-bitcoin-are-probably-gone-forever>  
@@ -8,29 +15,18 @@
 (Just google "lost bitcoin")  
   
 **This software aims to reduce the risk that this happens to you.**  
-   
+  
 ## Advantages of using this software  
-\* Much lower risk of permanently losing your seed phrase!  
-\* Universal support for SSS with any wallet's seed phrase!  
-
-## A things you should know when using this software  
-\* You should to have at least a few relatively secure cloud file storage solutions, the files are very small, so free tiers are usually fine. Microsoft OneDrive, Google Drive and Dropbox are good candidates.  
-\* You will need to locate and download these files if you are going to restore your seed.  
-\* A password manager is generally recommended for passwords, but can represent a single point of failure, which we are trying to avoid.  
+\* Much lower risk of permanently losing your seed phrase.  
+\* Universal support for SSS with any wallet's seed phrase.  
   
-## Contact
-Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
+## Aims  
 
-## TLDR  
-Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
-
-## About the application  
-
-The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and encrypt your seed phrase with your password, so that it can be distributed among cloud services and/or local data storage methods, and will always be easily accessible. You can decrypt with your password once you can recover the minimum number of shares (set by you).  
+\* Secure seed phrase - use password to encrypt distributed (distributed is up to the user) SSS shares  
+\* Easy recovery - use the software to recombine and decrypt the shares  
+\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
   
-In short, the software makes it signficantly easier for you to recover your seed phrase, with only a marginal decrease in security.  
-  
-### Simple language overview   
+## Simple language overview   
 1) Turns your seed phrase into a number by encoding (not encryption), then uses Shamir's Secret Sharing to create shares from that number. See <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing> for more on how this part works.  
   
 2) These shares are then encrypted with your password and saved as files.  
@@ -41,12 +37,17 @@ In short, the software makes it signficantly easier for you to recover your seed
   
 5) In the future, if you need to recover your seed phrase, collect the minimum number of files from wherever you distributed them, place them in a folder, and decrypt them using the software and your password.  
   
-### Aims  
+## A few things you should know before using this software  
+\* You should consider a few relatively secure cloud file storage solutions, the files are very small, so free tiers will be fine, and easy to set up. Microsoft OneDrive, Google Drive and Dropbox are good candidates.  
+\* You will need to locate and download these files if you are going to restore your seed at a later date, so you'll want to store them in a logical place where you'd think to look for them.  
+\* A password manager is generally recommended for passwords, but can represent a single point of failure, which we are trying to avoid.  
+  
+## About the application  
 
-\* Secure seed phrase - use password to encrypt distributed (distributed is up to the user) SSS shares  
-\* Easy recovery - use the software to recombine and decrypt the shares  
-\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
-
+The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and encrypt your seed phrase with your password, so that it can be distributed among cloud services and/or local data storage methods, and will always be easily accessible. You can decrypt with your password once you can recover the minimum number of shares (set by you).  
+  
+In short, the software makes it signficantly easier for you to recover your seed phrase, with only a marginal decrease in security.  
+  
 The software does this by using 1) a password, and 2) a programatically generated encryption key, to encrypt the seed phrase of a digital wallet so that its parts can be distributed in multiple, varying digital locations (e.g. multiple cloud storage services) to mitigate against the risk of losing access to physical copies of SSS shares or otherwise trying to secure the entire (complete or unencrypted) seed phrase in a cloud service, which has inherent risk.  
 
 You will need 1) your secret (seed phrase or other text you wish to obfuscate), and a password, (ideally a strong one, that you can memorize, or one stored in a password manager that is not linked to your shares in any way, but keep in mind the password manager can represent a single point of failure. Losing access to the password within it, may render you unable to access your seed.)  
@@ -137,3 +138,8 @@ A compiled executable is provided in the 'dist' folder for Windows users who do 
 SHA512 for version 0.22 is:  cc1adfceffb486d14e1a907a2bf85d9420e0c106c2163f0fbf2cb15feede8b42327e3d3746022428f58d9569cd8c216052ca644c2db56fba669399af37800a5e
   
 You can verify this by using the command "certutil --hashfile SSSSS_022.exe SHA512" on the downloaded executable to rule out tampering. This, in theory, should represent that the compiled executable is compiled from the 0.22 release code. **HOWEVER**, note that if the executable downloaded from here has been tampered with, it would be trivial for the party that tampered with the executable to alter the hash above.
+
+## Contact
+Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
+
+
