@@ -2,6 +2,8 @@
 
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
+
+## THIS SOFTWARE IS IN ALPHA, TESTING IS WELCOME, BUT USE AT YOUR OWN RISK  
   
 ## Pitch
   
