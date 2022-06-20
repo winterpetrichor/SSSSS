@@ -171,7 +171,7 @@ This is used to implement symmetric encryption on the shares generated.
   
 A compiled executable is provided in the 'dist' folder for Windows users who do not have Python installed.
   
-SHA512 for version 0.22 is:  cc1adfceffb486d14e1a907a2bf85d9420e0c106c2163f0fbf2cb15feede8b42327e3d3746022428f58d9569cd8c216052ca644c2db56fba669399af37800a5e
+SHA512 for version 0.22 is:  9d3d36a88e7c90b1f25424bce03833692b1cfb94c2a69c15d670e5e3159efb41456325dc4ceb538c8676417f5a4eb3e6bcc4659ecb80e1fcd5c7a23597f4a8da
   
 You can verify this by using the command "certutil --hashfile SSSSS_022.exe SHA512" on the downloaded executable to rule out tampering. This, in theory, should represent that the compiled executable is compiled from the 0.22 release code. **HOWEVER**, note that if the executable downloaded from here has been tampered with, it would be trivial for the party that tampered with the executable to alter the hash above.
   
