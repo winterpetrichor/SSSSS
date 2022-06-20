@@ -114,6 +114,8 @@ The use of SSS in this project is, as it would be in any project, twofold.
 1) To cater for a number of shares becoming inaccessible (lost cloud account, data storage device destroyed in a fire, etc.).  
 2) So that no one share contains the entire secret, enhancing security.  
   
+As far as I know, at the time of writing, only Trezor has implemented SSS via SLIP39 <https://github.com/BlockchainCommons/bc-slip39>, which directly converts your binary seed into seed phrase shares for the Shamir Backup (SSS). This is a better approach, than the one taken here, and one I hope to see as a standard in wallets going forward. However, adoption will take time, so a completely different approach is taken in this software. Whatever wallet you choose, presumably any wallet other than the Trezor Model T, will still convert your binary seed into a single seed phrase, which can then be used with this software to create the encrypted shares.  
+  
 **Fernet Encryption**  
 <https://cryptography.io/en/latest/fernet/>  
 This is used to implement symmetric encryption on the shares generated.  
