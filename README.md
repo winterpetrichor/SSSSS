@@ -1,26 +1,26 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
-
+  
 ## TLDR  
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
-
-### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup   
+  
+### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup  
   
 ## Pitch
   
 **20-50% of bitcoin is expected to be permanently lost**  
-
+  
 This is largely because the seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) is kept, for security reasons; whether it's written down, stamped in metal, stored on a flash drive or hard drive. You can forget where it is, lose it in a fire, or some other catastrophic event; essentially, the seed becomes lost, corrupted or destroyed.  
   
 We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, and **read on to see how this software can help mitigate against this happening to you.**  
-
+  
 <https://fortune.com/2017/11/25/lost-bitcoins/>  
 <https://decrypt.co/37171/lost-bitcoin-3-7-million-bitcoin-are-probably-gone-forever>  
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
 (Just google "lost bitcoin")  
   
 ## Aims  
-
+  
 \* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
 *(some links on what SSS is are listed below)*  
   
@@ -54,13 +54,13 @@ This software is **open source and free to use**. See License file or refer to (
   
 1) **Free** - This kind of protection should be free and available to anyone who wants to secure their assets via self custody but, like me, not worry too much about losing their seed phrase, and thereby, all access to your assets.  
   
-2) **Open source** - The information this software deals with is obviously very sensitive. The code is open source for all to see that there is no malicious code included, nothing is saved except for the files you create. You could run this offline, in a virtual machine, with an immutable hard disk and everything would work absolutely fine. Of course, that couldn't protect you from some kind of intercept device like a keylogger that would save your keystrokes as you typed your seed phrase, or password.  
-
-Firstly, and no matter what, I hope that the software brings value. You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) Again, I hope that the software brings value to you, regardless of whether you donate or not.  
+2) **Open source** - The information this software deals with is obviously very sensitive. The code is open source for all to see that there is no malicious code included, nothing is saved except for the files you create. You could run this offline, in a virtual machine, with an immutable hard disk and everything would work absolutely fine. Of course, that couldn't protect you from some kind of intercept device like a keylogger that would save your keystrokes as you typed your seed phrase, or password. Also, I am not a professional developer, nor a specialist in cryptography, and the initial code was developed in complete isolation.  
   
-If you do choose to donate, I thank you sincerely for appreciating the time and effort that went into this. As of right now, all donations will go toward funding my efforts on this software, helping me to improve it, and also, to become a better developer in general.  
+Anywho, firstly, and no matter what, I hope that the software brings you value. You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) Again, I hope that the software brings value to you, regardless of whether you donate or not.  
   
-I am not a professional developer. While I would like to be, I have financial responsibilities that require me to maintain my full time job. However, I am interested in making the transition into software; please reach out to me with some details if you have an offer. That being said, this is my first published software project. I chose this project because it is something I'm interested in, and I think this is a niche that needs to be filled. If there are any bugs, oversights, etc., especially with regard to cryptography, or fundamental assumptions on how these things work, please let me know and I will have them addressed as soon as I can. I am interested in learning what I can to make myself better in this space.  
+If you do choose to donate, I thank you sincerely for appreciating the time and effort that went into this. As of right now, all donations will go toward funding my efforts on this software, helping me to improve it, perhaps write other useful software, and also, to become a better developer in general.  
+  
+As stated before, I am not a professional developer. While I would like to be, I have financial responsibilities that require me to maintain my full time job. However, I am interested in making the transition into software; please reach out to me with some details if you have an offer. That being said, this is my first published software project. I chose this project because it is something I'm interested in, and I think this is a niche that needs to be filled. If there are any bugs, oversights, etc., especially with regard to cryptography, or fundamental assumptions on how these things work, please let me know and I will have them addressed as soon as I can. I am interested in learning what I can to make myself better in this space.  
   
 ## A few things you should know before using this software  
   
