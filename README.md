@@ -6,6 +6,10 @@
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
 (Just google "lost bitcoin")
 
+## Advantages of using this software  
+\*Much lower risk of permanently losing your seed phrase!  
+\*Universal support for SSS with any wallet's seed phrase!  
+  
 ## Contact
 Please feel free to contact me by email or on twitter (see profile page <https://github.com/winterpetrichor>) with any questions, comments, suggestions, thoughts, things I should learn or be aware of, etc. This is my first public repo, and hopefully the start of a long overdue journey for me.  
 
