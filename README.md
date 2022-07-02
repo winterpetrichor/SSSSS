@@ -10,9 +10,11 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
   
 ## Pitch
   
-**20-50% of bitcoin is expected to be permanently lost**  
+**20-50% of bitcoin is expected to be permanently lost.**  
   
 This is largely because the seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) is kept, for security reasons; whether it's written down, stamped in metal, stored on a flash drive or hard drive. You can forget where it is, lose it in a fire, or some other catastrophic event; essentially, the seed becomes lost, corrupted or destroyed.  
+  
+**This also applies to any other crypto.**
   
 We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, and **read on to see how this software can help mitigate against this happening to you.**  
   
