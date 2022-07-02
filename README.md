@@ -137,11 +137,12 @@ This is used to implement symmetric encryption on the shares generated.
 5) Your seed phrase will be displayed in a message box  
 
 ## Potential future updates  
-  
-\* Include optional TOTP  
-\* Include optional hardware key support  
+
+\* Include the option to inconspicuously append the secrets onto files, such as jpegs, mp3s, etc. without rendering them unreadable    
+\* Optional TOTP  
 \* Optional asymmetric encryption  
-\* Include the option to inconspicuously append the secrets onto files, such as jpegs, mp3s, etc. without rendering them unreadable  
+\* Optional hardware key support  
+*These are listed in the order I intend to tackle them, at the time of writing. If you feel strongly about any one of these, or any other feature for that matter, please feel free to contact me.*
   
 ## Execution  
 
