@@ -11,6 +11,7 @@ import os #filepaths
 import sys #exit
 
 #encryption & decryption modules
+sys.path.insert(0,'./modules')
 import SSS_enc
 import SSS_dec
 
