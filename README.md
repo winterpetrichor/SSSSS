@@ -3,7 +3,7 @@
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
 
-## THIS SOFTWARE IS IN ALPHA, TESTING IS WELCOME, BUT USE AT YOUR OWN RISK  
+## THIS SOFTWARE IS IN ALPHA, TESTING IS WELCOME, BUT AT THIS STAGE, I DO NOT RECOMMEND USING THIS AS YOUR ONLY MEANS OF SEED BACKUP 
   
 ## Pitch
   
@@ -18,7 +18,7 @@ We have gotten accustommed to centralized support that offers a *Forgot password
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
 (Just google "lost bitcoin")  
   
-### This software aims to reduce the risk that this happens to you.
+### This software aims to reduce the risk that this happens to you.  
   
 ## Aims  
 
