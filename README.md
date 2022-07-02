@@ -1,9 +1,13 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
   
 ## TLDR  
+<<<<<<< HEAD
   
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  test
+>>>>>>> 5cf55a2 (test)
 #### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys!
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
