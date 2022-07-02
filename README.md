@@ -76,7 +76,7 @@ In short, the software makes it signficantly easier for you to recover your seed
   
 The software does this by using 1) a password, and 2) a programatically generated encryption key, to encrypt the seed phrase of a digital wallet so that its parts can be distributed in multiple, varying digital locations (e.g. multiple cloud storage services) to mitigate against the risk of losing access to physical copies of SSS shares or otherwise trying to secure the entire (complete or unencrypted) seed phrase in a cloud service, which has inherent risk.  
   
-You will need 1) your secret (seed phrase or other text you wish to obfuscate), and a password, (ideally a strong one, that you can memorize, or one stored in a password manager that is not linked to your shares in any way, but keep in mind the password manager can represent a single point of failure. Losing access to the password within it, may render you unable to access your seed.)  
+You will need 1) your secret (seed phrase or other text you wish to obfuscate), and 2) a password, (ideally a strong one, that you can memorize, or one stored in a password manager that is not linked to your shares in any way, but keep in mind the password manager can represent a single point of failure. Losing access to the password within it, may render you unable to access your seed.)  
   
 This password will be used to symmetrically encrypt your data with Fernet encryption provided by the cryptography library.  
 https://pypi.org/project/cryptography/  
@@ -158,14 +158,14 @@ This is used to implement symmetric encryption on the shares generated.
   
 ## Potential future updates  
   
-\* Only show QR code when decrypting seed
-\* Scan QR code for seed encryption
-\* Copy decrypted seed to clipboard
-\* Include the option to inconspicuously append the secrets onto files, such as jpegs, mp3s, etc. without rendering them unreadable    
+\* Only show QR code when decrypting seed  
+\* Scan QR code for seed encryption  
+\* Copy decrypted seed to clipboard  
+\* Include the option to inconspicuously append the secrets onto files, such as jpegs, mp3s, etc. without rendering them unreadable  
 \* Optional TOTP  
 \* Optional asymmetric encryption  
 \* Optional hardware key support  
-*I don't have a particular sequence planned for these, but I'll probably tackle them in order of difficulty, starting with the easiest first. If you feel strongly about any one of these, or any other feature for that matter, please feel free to contact me.*
+*I don't have a particular sequence planned for these, but I'll probably tackle them in order of difficulty, starting with the easiest first. If you feel strongly about any one of these, or any other feature for that matter, please feel free to contact me.*  
   
 ## Execution  
   
