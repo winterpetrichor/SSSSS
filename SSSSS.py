@@ -29,8 +29,10 @@ access to physical copies of SSS shares or otherwise trying to secure the \
 entire (complete or unencrypted) seed phrase in a cloud service, which \
 has inherent risk.\n\n\
 You will need your secret (seed phrase or other text you wish to obfuscate), \
-and a password, (ideally a \
-strong one, stored in a password manager that is not linked to your shares). \
+and a password, (ideally a strong one, that you can memorize, or one stored \
+in a password manager that is not linked to your shares in any way, but keep \
+in mind the password manager can represent a single point of failure. \
+Losing access to the password within it, may render you unable to access your seed.) \
 This password will be used to symmetrically encrypt your data with \
 Fernet encryption provided by the cryptography library.\n\n\
 [ https://pypi.org/project/cryptography/ ]\n\n\
