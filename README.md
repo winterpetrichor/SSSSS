@@ -52,11 +52,11 @@ b) Symmetric encryption as opposed to asymmetric encryption was chosen for a cou
 <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing>
 The use of SSS in this project is, as it would be in any project, twofold.  
 1) To cater for a number of shares becoming inaccessible (lost cloud account, data storage device destroyed in a fire, etc.).  
-2) So that no one share contains the entire secret  
+2) So that no one share contains the entire secret, enhancing security.  
 
 #### Fernet Encryption  
 <https://cryptography.io/en/latest/fernet/>  
-This is used to implement symmetric encryption on the shares generated  
+This is used to implement symmetric encryption on the shares generated.  
 
 **Symmetric Encryption**  
 <https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences>  *(See note 'b' above)*
