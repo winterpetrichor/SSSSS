@@ -42,10 +42,11 @@ This software is **open source and free to use**. See License file or refer to (
   
 2) **Open source** - The information this software deals with is obviously very sensitive. The code is open source for all to see that there is no malicious code included, nothing is saved except for the files you create. You could run this offline, in a virtual machine, with an immutable hard disk and everything would work absolutely fine. Of course, that couldn't protect you from some kind of intercept device like a keylogger that would save your keystrokes as you typed your seed phrase, or password.  
 
-You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) I hope that the software brings value to you, regardless of whether you donate or not. 
+You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) I hope that the software brings value to you, regardless of whether you donate or not.  
   
 Whether you donate or not is completely up to you. However, if you do choose to donate, I thank you sincerely for appreciating the time and effort that went into this. As of right now, all donations will go toward funding my efforts on this software, helping me to improve it, and also, to become a better developer in general.  
   
+I am not a professional developer. While I would like to be, I have financial responsibilities that require me to maintain my full time job. However, I am interested in making the transition into software; please reach out to me with some details if you have an offer. That being said, this is my first published software project. I chose this project because it is something I'm interested in, and I think this is a niche that needs to be filled. If there are any bugs, oversights, etc., especially with regard to cryptography, or fundamental assumptions on how these things work, please let me know and I will have them addressed as soon as I can. I am interested in learning what I can to make myself better in this space.  
   
 ## Advantages of using this software  
   
@@ -160,11 +161,14 @@ This is used to implement symmetric encryption on the shares generated.
 
 ## Potential future updates  
 
+\* Only show QR code when decrypting seed
+\* Scan QR code for seed encryption
+\* Copy decrypted seed to clipboard
 \* Include the option to inconspicuously append the secrets onto files, such as jpegs, mp3s, etc. without rendering them unreadable    
 \* Optional TOTP  
 \* Optional asymmetric encryption  
 \* Optional hardware key support  
-*These are listed in the order I intend to tackle them, at the time of writing. If you feel strongly about any one of these, or any other feature for that matter, please feel free to contact me.*
+*I don't have a particular sequence planned for these, but I'll probably tackle them in order of difficulty, starting with the easiest first. If you feel strongly about any one of these, or any other feature for that matter, please feel free to contact me.*
   
 ## Execution  
 
