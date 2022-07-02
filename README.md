@@ -1,12 +1,16 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## TLDR  
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 ## TLDR   
 >>>>>>> 4e13ae9 (test vscode signing)
+=======
+## TLDR  
+>>>>>>> 8c117bb (test gpg signing)
   
 <<<<<<< HEAD
 <<<<<<< HEAD
