@@ -175,7 +175,10 @@ This is used to implement symmetric encryption on the shares generated.
   
 ## Potential future updates  
   
+<<<<<<< HEAD
 \* Support for YubiKey and/or other hardware 
+=======
+>>>>>>> 987f930 (readme update)
 \* Only show QR code when decrypting seed  
 \* Scan QR code for seed encryption  
 \* Copy decrypted seed to clipboard  
