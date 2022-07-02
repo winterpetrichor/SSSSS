@@ -3,6 +3,7 @@
 ## TLDR  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys!
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
@@ -23,6 +24,9 @@ Two options:
 >>>>>>> 269137b (readme update)
 =======
 #### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys! Spread your seed!  
+=======
+#### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys!
+>>>>>>> b7d583d (added yubikey to roadmap)
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
   
@@ -238,9 +242,13 @@ This is used to implement symmetric encryption on the shares generated.
 ## Potential future updates  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 \* Support for YubiKey and/or other hardware 
 =======
 >>>>>>> 987f930 (readme update)
+=======
+\* Support for YubiKey and/or other hardware 
+>>>>>>> b7d583d (added yubikey to roadmap)
 \* Only show QR code when decrypting seed  
 \* Scan QR code for seed encryption  
 \* Copy decrypted seed to clipboard  
