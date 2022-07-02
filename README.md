@@ -13,7 +13,7 @@
 \* Much lower risk of permanently losing your seed phrase!  
 \* Universal support for SSS with any wallet's seed phrase!  
 
-## Complexities(?) of using this software  
+## A things you should know when using this software  
 \* You should to have at least a few relatively secure cloud file storage solutions, the files are very small, so free tiers are usually fine. Microsoft OneDrive, Google Drive and Dropbox are good candidates.  
 \* You will need to locate and download these files if you are going to restore your seed.  
 \* A password manager is generally recommended for passwords, but can represent a single point of failure, which we are trying to avoid.  
