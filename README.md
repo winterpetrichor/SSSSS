@@ -3,7 +3,7 @@
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
 
-## THIS SOFTWARE IS IN ALPHA, TESTING IS WELCOME, BUT AT THIS STAGE, I DO NOT RECOMMEND USING THIS AS YOUR ONLY MEANS OF SEED BACKUP 
+### THIS SOFTWARE IS IN ALPHA, TESTING IS WELCOME, BUT AT THIS STAGE, I DO NOT RECOMMEND USING THIS AS YOUR ONLY MEANS OF SEED BACKUP 
   
 ## Pitch
   
