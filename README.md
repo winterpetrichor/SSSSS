@@ -70,6 +70,8 @@ b) Symmetric encryption as opposed to asymmetric encryption was chosen for a cou
 
 **Shamir's Secret Sharing (SSS)**   
 <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing>
+<https://www.cs.purdue.edu/homes/hmaji/teaching/Fall%202020/lectures/08.pdf>
+<https://www.cs.purdue.edu/homes/hmaji/teaching/Fall%202020/lectures/09.pdf>
 The use of SSS in this project is, as it would be in any project, twofold.  
 1) To cater for a number of shares becoming inaccessible (lost cloud account, data storage device destroyed in a fire, etc.).  
 2) So that no one share contains the entire secret, enhancing security.  
