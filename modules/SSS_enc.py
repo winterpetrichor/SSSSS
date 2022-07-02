@@ -106,7 +106,7 @@ def enc_main(mindec, maxdec, s1, p1, savedir, foldername, fileprefix):
                 patherr = 0
             except:
                 patherr = 1
-            enc_main(t, n, m1, password, path, foldername)
+            enc_main(t, n, m1, password, path, foldername, fileprefix)
     except UnicodeDecodeError:
         
         shutil.rmtree(foldername)
