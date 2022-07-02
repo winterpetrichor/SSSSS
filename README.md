@@ -20,8 +20,12 @@ We have gotten accustommed to centralized support that offers a *Forgot password
   
 ## Aims  
 
-\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS *(some links on what SSS is are listed below)*  
-\* Secure seed phrase - use password to encrypt distributed SSS shares *(distribution strategy is up to the user - cloud services, flash drives, local drives, basically any data storage medium)*  
+\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
+*(some links on what SSS is are listed below)*  
+  
+\* Secure seed phrase - use password to encrypt distributed SSS shares  
+*(distribution strategy is up to the user - cloud services, flash drives, local drives, basically any data storage medium)*  
+  
 \* Easy encryption and decryption for recovery - use the software to one-step split and encrypt and one-step recombine and decrypt the shares  
   
 ## Advantages of using this software  
