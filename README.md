@@ -2,7 +2,9 @@
 
 ## TLDR  
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
-
+  
+## Pitch
+  
 **20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases.**  
 
 This is largely because these seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) gets lost; written down, stamped in metal, stored on a single flash drive or hard drive that gets lost or corrupted, lost in a fire, etc.)  
@@ -14,17 +16,18 @@ We have gotten accustommed to centralized support that offers a *Forgot password
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
 (Just google "lost bitcoin")  
   
-**This software aims to reduce the risk that this happens to you.**  
+### This software aims to reduce the risk that this happens to you.
+  
+## Aims  
+
+\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
+\* Secure seed phrase - use password to encrypt distributed SSS shares *(distribution strategy is up to the user)*  
+\* Easy recovery - use the software to recombine and decrypt the shares  
+
   
 ## Advantages of using this software  
 \* Much lower risk of permanently losing your seed phrase.  
 \* Universal support for SSS with any wallet's seed phrase.  
-  
-## Aims  
-
-\* Secure seed phrase - use password to encrypt distributed (distributed is up to the user) SSS shares  
-\* Easy recovery - use the software to recombine and decrypt the shares  
-\* Minimize risk of loss (of the seed phrase) - eliminate single point of failure of the seed phrase through SSS  
   
 ## Simple language overview   
 1) Turns your seed phrase into a number by encoding (not encryption), then uses Shamir's Secret Sharing to create shares from that number. See <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing> for more on how this part works.  
