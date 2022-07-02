@@ -26,8 +26,12 @@ Two options:
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
   
+<<<<<<< HEAD
 #### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!  
 >>>>>>> 72e6dfd (readme update)
+=======
+#### *This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!*  
+>>>>>>> 0ad9046 (readme update)
   
 ## Pitch
   
