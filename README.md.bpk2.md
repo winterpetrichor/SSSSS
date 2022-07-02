@@ -1,12 +1,57 @@
 # SSSSS - Shamir's Secret Sharing Seed Splitter  
   
+<<<<<<< HEAD
+<<<<<<< HEAD
 ## TLDR  
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## TLDR   
+>>>>>>> 4e13ae9 (test vscode signing)
+=======
+## TLDR  
+>>>>>>> 8c117bb (test gpg signing)
   
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  test
+>>>>>>> 5cf55a2 (test)
+=======
+  
+>>>>>>> e794c39 (test confirmed)
 #### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys!
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
   
+<<<<<<< HEAD
+<<<<<<< HEAD
 #### *This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!*  
+  
+## How to run the software  
+Two options:
+1) Windows users can download the compiled executable (.exe) from the Releases heading on the right OR the "dist" subfolder above.
+2) Anyone with Python 3 installed should be able to download the repo (Click the green code button on the top and then Download ZIP, and unzip to wherever you'd like) and then run the SSSSS.py file.
+=======
+### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!  1
+>>>>>>> a086653 (readme update)
+=======
+### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!  
+>>>>>>> 269137b (readme update)
+=======
+#### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys! Spread your seed!  
+=======
+#### Not your keys, not your coins. Conversely, no keys, no coins! Don't lose your keys!
+>>>>>>> b7d583d (added yubikey to roadmap)
+  
+Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
+  
+<<<<<<< HEAD
+#### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!  
+>>>>>>> 72e6dfd (readme update)
+=======
+#### *This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!*  
+>>>>>>> 0ad9046 (readme update)
   
 ## How to run the software  
 Two options:
@@ -213,9 +258,13 @@ This is used to implement symmetric encryption on the shares generated.
 ## Potential future updates  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 \* Support for YubiKey and/or other hardware 
 =======
 >>>>>>> 987f930 (readme update)
+=======
+\* Support for YubiKey and/or other hardware 
+>>>>>>> b7d583d (added yubikey to roadmap)
 \* Only show QR code when decrypting seed  
 \* Scan QR code for seed encryption  
 \* Copy decrypted seed to clipboard  
