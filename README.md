@@ -6,22 +6,7 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
 
 ### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup   
   
-
-## Pricing?
   
-This software is **open source and free to use**. See License file or refer to (GPLv3) for more information on terms of use.  
-  
-**Why free and open source?**  
-  
-1) **Free** - This kind of protection should be free and available to anyone who wants to secure their assets via self custody but, like me, not worry too much about losing their seed phrase, and thereby, all access to your assets.  
-  
-2) **Open source** - The information this software deals with is obviously very sensitive. The code is open source for all to see that there is no malicious code included, nothing is saved except for the files you create. You could run this offline, in a virtual machine, with an immutable hard disk and everything would work absolutely fine. Of course, that couldn't protect you from some kind of intercept device like a keylogger that would save your keystrokes as you typed your seed phrase, or password.  
-
-You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) I hope that the software brings value to you, regardless of whether you donate or not. 
-  
-Whether you donate or not is completely up to you. However, if you do choose to donate, I thank you sincerely for appreciating the time and effort that went into this. As of right now, all donations will go toward funding my efforts on this software, helping me to improve it, and also, to become a better developer in general.  
-  
-
 ## Pitch
   
 **20-50% of bitcoin is expected to be permanently lost**  
@@ -45,6 +30,22 @@ We have gotten accustommed to centralized support that offers a *Forgot password
 *(distribution strategy is up to the user - cloud services, flash drives, local drives, basically any data storage medium)*  
   
 \* Easy encryption and decryption for recovery - use the software to one-step split and encrypt and one-step recombine and decrypt the shares  
+  
+  
+## Pricing?
+  
+This software is **open source and free to use**. See License file or refer to (GPLv3) for more information on terms of use.  
+  
+**Why free and open source?**  
+  
+1) **Free** - This kind of protection should be free and available to anyone who wants to secure their assets via self custody but, like me, not worry too much about losing their seed phrase, and thereby, all access to your assets.  
+  
+2) **Open source** - The information this software deals with is obviously very sensitive. The code is open source for all to see that there is no malicious code included, nothing is saved except for the files you create. You could run this offline, in a virtual machine, with an immutable hard disk and everything would work absolutely fine. Of course, that couldn't protect you from some kind of intercept device like a keylogger that would save your keystrokes as you typed your seed phrase, or password.  
+
+You might however, notice that I'm asking for donations; I did spend time learning about all this, and writing the software. I also intend to maintain and continue improving it (feedback is welcome, especially clear, constructive criticism.) I hope that the software brings value to you, regardless of whether you donate or not. 
+  
+Whether you donate or not is completely up to you. However, if you do choose to donate, I thank you sincerely for appreciating the time and effort that went into this. As of right now, all donations will go toward funding my efforts on this software, helping me to improve it, and also, to become a better developer in general.  
+  
   
 ## Advantages of using this software  
   
