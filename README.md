@@ -144,7 +144,7 @@ This is used to implement symmetric encryption on the shares generated.
   
 4) The software will then use the minimum number and total number of shares to generate a list (of lists) of all possible combinations (n choose k) of the secret files, which will then be tested using the decryption step, to verify the files have been correctly encrypted, and that your secret is recoverable with any combination of the **minimum** number of these files. Minimum is highlighted here, because in the testing done during initial development, in some (rare) cases, even though decryption using any combination of the minimum number of files worked, sometimes, using more than the minimum failed. This is suspected to be due to Lagrange error, rounding, encoding/encryption artefacts, or some other unknown cause, however, it has not been investigated or confirmed. (This step can be slow, based on the number of combinations, and the fact that any failures are mitigated by re-starting the encryption process.)  
 
-![Encrypt Screen](screenshots\encrypt_screen_example.png)
+![Encrypt Screen](screenshots/encrypt_screen_example.png)  
   
 ### Decrypt screen  
   
