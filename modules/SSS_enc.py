@@ -9,10 +9,6 @@ import enc_modules
 import SSS_modules
 import SSS_dec_rand
 
-#import GUI
-import tkinter as tk
-from tkinter import filedialog
-
 prog = 0
 
 def enc_main(mindec, maxdec, s1, p1, savedir, foldername, fileprefix):
