@@ -33,6 +33,11 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
 #### *This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time. BUT please feel free to download and test it out, if you don't trust it, read the code or put in made up stuff to see how it works and let me know what you like and don't like!*  
 >>>>>>> 0ad9046 (readme update)
   
+## How to run the software  
+Two options:
+1) Windows users can download the compiled executable (.exe) from the Releases heading on the right OR the "dist" subfolder above.
+2) Anyone with Python 3 installed should be able to download the repo (Click the green code button on the top and then Download ZIP, and unzip to wherever you'd like) and then run the SSSSS.py file.
+  
 ## Pitch
   
 **20-50% of bitcoin is expected to be permanently lost.**  
