@@ -7,18 +7,17 @@ Uses SSS and a password to create encrypted files, only useful for decryption if
   
 ## Pitch
   
-**20-50% of bitcoin is expected to be permanently lost, mainly due to lost seed phrases.**  
+**20-50% of bitcoin is expected to be permanently lost**  
 
-This is largely because these seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) gets lost; written down, stamped in metal, stored on a single flash drive or hard drive that gets lost or corrupted, lost in a fire, etc.)  
+This is largely because the seed phrases are protected so well by their owners. Typically, a single copy (physical or digital) is kept, for security reasons; whether it's written down, stamped in metal, stored on a flash drive or hard drive. You can forget where it is, lose it in a fire, or some other catastrophic event; essentially, the seed becomes lost, corrupted or destroyed.  
   
-We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, and read on to see how this software can help mitigate against this happening to you.  
+We have gotten accustommed to centralized support that offers a *Forgot password?* feature, which does not exist in the self custody wallet universe. Some examples below, and **read on to see how this software can help mitigate against this happening to you.**  
 
 <https://fortune.com/2017/11/25/lost-bitcoins/>  
 <https://decrypt.co/37171/lost-bitcoin-3-7-million-bitcoin-are-probably-gone-forever>  
 <https://www.nytimes.com/2021/01/12/technology/bitcoin-passwords-wallets-fortunes.html>  
 (Just google "lost bitcoin")  
   
-### This software aims to reduce the risk that this happens to you.  
   
 ## Aims  
 
@@ -53,7 +52,7 @@ We have gotten accustommed to centralized support that offers a *Forgot password
 \* You will need to locate and download these files if you are going to restore your seed at a later date, so you'll want to store them in a logical place where you'd think to look for them.  
 \* A password manager is generally recommended for passwords, but can represent a single point of failure, which we are trying to avoid.  
   
-## About the application  
+## More about the application  
 
 The intent of this application is to allow your seed phrase to be easily and readily available to you, in a practical manner. It will encode and then split your seed phrase into shares, and encrypt your seed phrase with your password, so that it can be distributed among cloud services and/or local data storage methods, and will always be easily accessible. You can decrypt with your password once you can recover the minimum number of shares (set by you).  
   
@@ -72,7 +71,7 @@ The software is intended to be used to encrypt and then split your secret in a m
 I thereby wish you good luck!  
   
 
-## Background information  
+## Some background information  
 
 ### How the software works  
 
