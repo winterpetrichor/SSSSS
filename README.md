@@ -49,13 +49,13 @@ b) Symmetric encryption as opposed to asymmetric encryption was chosen for a cou
   
 \* I acknowledge that the lines are a little blurred here. At the time of writing, I'm considering implementing TOTP and asymmetric encryption options, however, thinking this through in the practical use case is critical. Since the major objective of the software, is the ease of recovering the seed phrase, without increasing the points of failure.  
 
-#### Shamir's Secret Sharing (SSS)  
+**Shamir's Secret Sharing (SSS)**   
 <https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing>
 The use of SSS in this project is, as it would be in any project, twofold.  
 1) To cater for a number of shares becoming inaccessible (lost cloud account, data storage device destroyed in a fire, etc.).  
 2) So that no one share contains the entire secret, enhancing security.  
 
-#### Fernet Encryption
+**Fernet Encryption**  
 <https://cryptography.io/en/latest/fernet/>  
 This is used to implement symmetric encryption on the shares generated.  
 
