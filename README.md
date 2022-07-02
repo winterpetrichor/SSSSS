@@ -4,7 +4,7 @@
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
   
-### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup  
+### This software is currently in ALHPA, testing is welcome, but at this stage, I do not recommend using this as your ONLY means of seed backup at this time.  
   
 ## Pitch
   
