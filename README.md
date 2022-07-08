@@ -146,25 +146,25 @@ This is used to implement symmetric encryption on the shares generated.
 ### Encrypt screen  
   
 1) Enter the minimum number of shares and total number of shares, your secret, password, save location and secret filename prefix.  
-(screenshots/encrypt_screen_example.png)  
+![Encrypt screen](screenshots/encrypt_screen_example.png)  
     
 2) Click Encrypt.  
   
 3) The software will encode and split your secret then encrypt the files using your password and save them in the folder you chose, with the filename prefix you specified. (This step is very fast)  
-(screenshots/all_generated_files.png)  
+![Generated files](screenshots/all_generated_files.png)  
   
 4) The software will then use the minimum number and total number of shares to generate a list (of lists) of all possible combinations (n choose k) of the secret files, which will then be tested using the decryption step, to verify the files have been correctly encrypted, and that your secret is recoverable with any combination of the **minimum** number of these files. Minimum is highlighted here, because in the testing done during initial development, in some (rare) cases, even though decryption using any combination of the minimum number of files worked, sometimes, using more than the minimum failed. This is suspected to be due to Lagrange error, rounding, encoding/encryption artefacts, or some other unknown cause, however, it has not been investigated or confirmed. (This step can be slow, based on the number of combinations, and the fact that any failures are mitigated by re-starting the encryption process.)  
     
 ### Decrypt screen  
   
 1) Place any combination of the **minimum**\*(see #4 under Encrypt screen) number of secret files in a known, local folder (an empty one for best results)  
-(screenshots/7_of_8_files.png)  
+![Min files](screenshots/7_of_8_files.png)  
 *secret file #3 removed to demonstrate minimum number of files*  
 
 2) Select the folder on the Decryption screen  
   
 3) Enter your password  
-(screenshots/decrypt_screen_example.png)  
+![Decrypt screen](screenshots/decrypt_screen_example.png)  
   
 4) Click Decrypt  
   
