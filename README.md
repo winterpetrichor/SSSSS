@@ -154,68 +154,40 @@ This is used to implement symmetric encryption on the shares generated.
 ![All secret files created](screenshots/all_generated_files.png)  
   
 4) The software will then use the minimum number and total number of shares to generate a list (of lists) of all possible combinations (n choose k) of the secret files, which will then be tested using the decryption step, to verify the files have been correctly encrypted, and that your secret is recoverable with any combination of the **minimum** number of these files. Minimum is highlighted here, because in the testing done during initial development, in some (rare) cases, even though decryption using any combination of the minimum number of files worked, sometimes, using more than the minimum failed. This is suspected to be due to Lagrange error, rounding, encoding/encryption artefacts, or some other unknown cause, however, it has not been investigated or confirmed. (This step can be slow, based on the number of combinations, and the fact that any failures are mitigated by re-starting the encryption process.)  
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
+  
 ![Encrypt Screen](screenshots\encrypt_screen_example.png)
->>>>>>> 898df4d (images for readme test)
-=======
-![Encrypt Screen](screenshots/encrypt_screen_example.png)  
->>>>>>> 7f865b2 (readme update test)
-=======
-
->>>>>>> d684c6f (all screenshots added)
   
 ### Decrypt screen  
   
 1) Place any combination of the **minimum**\*(see #4 under Encrypt screen) number of secret files in a known, local folder (an empty one for best results)  
 ![Minimum files in folder](screenshots/7_of_8_files.png)  
-<<<<<<< HEAD
-<<<<<<< HEAD
 *secret file #3 removed to demonstrate minimum number of files*  
 
 2) Select this folder on the Decryption screen  
   
 3) Enter your password  
 ![Minimum files in folder](screenshots/decrypt_screen_example.png)  
-=======
-  
+    
 2) Select this folder on the Decryption screen  
   
 3) Enter your password  
 ![Minimum files in folder](decrypt_screen_example.png)  
->>>>>>> d684c6f (all screenshots added)
-=======
 *secret file #3 removed to demonstrate minimum number of files*  
 
 2) Select this folder on the Decryption screen  
   
 3) Enter your password  
 ![Minimum files in folder](screenshots/decrypt_screen_example.png)  
->>>>>>> 7bd7d27 (readme update)
   
 4) Click Decrypt  
   
 5) Your seed phrase will be displayed in a message box  
-<<<<<<< HEAD
-<<<<<<< HEAD
 ![Decrypted secret](screenshots/decrypted_secret.png)  
-=======
-![Decrypted secret](decrypted_secret.png)  
->>>>>>> d684c6f (all screenshots added)
-=======
-![Decrypted secret](screenshots/decrypted_secret.png)  
->>>>>>> 7bd7d27 (readme update)
   
+    
 ## Potential future updates  
   
-<<<<<<< HEAD
 \* Support for YubiKey and/or other hardware 
-=======
->>>>>>> 987f930 (readme update)
 \* Only show QR code when decrypting seed  
 \* Scan QR code for seed encryption  
 \* Copy decrypted seed to clipboard  
