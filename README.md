@@ -158,29 +158,18 @@ This is used to implement symmetric encryption on the shares generated.
 ### Decrypt screen  
   
 1) Place any combination of the **minimum**\*(see #4 under Encrypt screen) number of secret files in a known, local folder (an empty one for best results)  
-![Minimum files in folder](screenshots/7_of_8_files.png)  
+(screenshots/7_of_8_files.png)  
 *secret file #3 removed to demonstrate minimum number of files*  
 
-2) Select this folder on the Decryption screen  
+2) Select the folder on the Decryption screen  
   
 3) Enter your password  
-![Minimum files in folder](screenshots/decrypt_screen_example.png)  
-    
-2) Select this folder on the Decryption screen  
-  
-3) Enter your password  
-![Minimum files in folder](decrypt_screen_example.png)  
-*secret file #3 removed to demonstrate minimum number of files*  
-
-2) Select this folder on the Decryption screen  
-  
-3) Enter your password  
-![Minimum files in folder](screenshots/decrypt_screen_example.png)  
+(screenshots/decrypt_screen_example.png)  
   
 4) Click Decrypt  
   
 5) Your seed phrase will be displayed in a message box  
-![Decrypted secret](screenshots/decrypted_secret.png)  
+(screenshots/decrypted_secret.png)  
   
     
 ## Potential future updates  
