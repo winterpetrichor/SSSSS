@@ -169,7 +169,7 @@ This is used to implement symmetric encryption on the shares generated.
 4) Click Decrypt  
   
 5) Your seed phrase will be displayed in a message box  
-(screenshots/decrypted_secret.png)  
+![Decrypted secret](screenshots/decrypted_secret.png)  
   
     
 ## Potential future updates  
