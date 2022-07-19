@@ -6,8 +6,8 @@
   
 Uses SSS and a password to create encrypted files, only useful for decryption if the minimum shares (defined by you in the encryption step) is available, along with your password.  
   
-#### *This software works, but is mainly just a part of my portfolio for now, testing and comments are welcome. Please feel free to download and test it out. Constructive criticism is welcome!*  
-#### *I've fielded this in a couple places, and there are technologies that supercede this implementation of SSS. Please look into SSKR or Taproot with MuSig if you are interested in a more secure seed backup.*  
+#### *This software works, but is mainly just a part of my educational portfolio for now, testing and comments are welcome!*  
+#### *I don't recommend using this in a production environment since there are technologies that supercede this implementation of SSS. Please look into SSKR or Taproot with MuSig if you are interested in a more secure seed backup.*  
   
 ## How to run the software  
 Two options:
